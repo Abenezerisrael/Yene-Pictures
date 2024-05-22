@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yene Yene Pictures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about, #portfolio, #blog, #contact {
+            padding: 2rem 0;
+            background: white;
+            margin-bottom: 1rem;
+        }
+        #about img {
+            float: left;
+            margin-right: 1rem;
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yene Yene Pictures</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture">
+            <p>Welcome to Yene Yene Pictures! I am a passionate photographer with over five years of experience in capturing impactful visual stories. My work spans various genres, including documentary, event, and human interest photography. Through my lens, I aim to raise awareness and tell compelling stories that resonate with audiences worldwide.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out some of my best works below:</p>
+            <div>
+                <!-- Add your images here -->
+                <img src="photo1.jpg" alt="Sample Photo 1" style="width:100%; max-width: 300px;">
+                <img src="photo2.jpg" alt="Sample Photo 2" style="width:100%; max-width: 300px;">
+                <img src="photo3.jpg" alt="Sample Photo 3" style="width:100%; max-width: 300px;">
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Stay tuned for my latest blog posts where I share insights, tips, and behind-the-scenes stories from my photography journeys.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please fill out the form below:</p>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yene Yene Pictures. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
